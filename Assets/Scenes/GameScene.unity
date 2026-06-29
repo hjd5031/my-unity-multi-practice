@@ -2064,6 +2064,18 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 1224988709
       objectReference: {fileID: 0}
+    - target: {fileID: 3656025370061623603, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1961563031
+      objectReference: {fileID: 0}
+    - target: {fileID: 3656025370061623603, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3656025370061623603, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 3287267109
+      objectReference: {fileID: 0}
     - target: {fileID: 7150301565930258685, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
       propertyPath: m_Name
       value: axe

@@ -12,7 +12,14 @@ public class PlayerController : NetworkBehaviour
     
     private AgentMover m_AgentMover;
 
+    [SerializeField]
+    private InteractionDetector m_InteractionDetector;
 
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        m_InteractionDetector.Initialize(IsOwner);
+    }
 
     private void Update()
     {

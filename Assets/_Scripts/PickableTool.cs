@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PickableTool : PickableBase
 {
+    [SerializeField]
     private ComponentController m_componentController;
     protected override void ApplyAvailabilityState(bool newValue)
     {
